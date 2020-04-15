@@ -7,7 +7,7 @@ module.exports = {
   networks: {
     ropsten: {
       provider: function() {
-        return new HDWalletProvider("narrow grant tackle night will august fashion shallow diet bunker ticket fun","https://ropsten.infura.io/v3/630d4da5247a4330a3115e3d997aa6b2")
+        return new HDWalletProvider("walletkey","infuraurl")
       },
       gasPrice: 25000000000,
       network_id: 3
